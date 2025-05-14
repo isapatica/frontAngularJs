@@ -1,0 +1,45 @@
+.login-container{
+    display: flex;
+    height: 100 vh;
+    font-family: 'Segoe UI,  sans-serif';
+}
+.panel-left{
+    width: 60%;
+    height: 100vh;
+    background-image: url('/bf_left.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.panel-left h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.title-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.panel-right{
+    width: 40%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.panel-right h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.title-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
